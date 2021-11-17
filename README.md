@@ -1,5 +1,5 @@
 # Discord.js-Bad-Links
-Delete and mute a user for posting links commonly posted by compromised/hacked accounts.
+Delete the message and mute a user for posting harmful links.
 
 The api used includes over 4500 urls that contain harmful content, keeping your discord server safe.
 
