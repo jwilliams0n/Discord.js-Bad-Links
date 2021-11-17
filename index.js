@@ -2,7 +2,7 @@ const request = require('request');
 let badLinks = '';
 
 client.on("message", async message => {
-    request('https://api.hyperphish.com/gimme-domains', function (error, response, body) {
+    request('api link', function (error, response, body) {
         if (error === null) {} else { console.log(`request error: ${error}`)};
         badLinks = JSON.parse(body);
     });
