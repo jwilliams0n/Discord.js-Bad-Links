@@ -1,12 +1,13 @@
 # Discord.js-Bad-Links
-Delete and mute a user for posting links commonly found on hacked accounts.
+Delete and mute a user for posting links commonly posted by compromised/hacked accounts.
+
+The api used includes over 4500 urls that contain harmful content, keeping your discord server safe.
 
 
 How to set up:
-- Download the code.
-- Copy the contents of the downloaded index.js file into your existing index.js file. (The main file that runs your bot)
-- Drag the badLinks.json file into the same folder as your existing index.js file.
-- Replace "mute role id" on line 9 of index.js with your discord muted role ID.
+- Copy the contents of the index.js file into your existing index.js file. (The main file that runs your bot)
+- Install the npm request package via **npm install request**
+- Replace **"mute role id"** on line 11 of index.js with your discord muted role ID.
 
 
 NOTE: This is not a fully working bot code. You will need to already have a working discord.js bot with an existing index.js code file for this to work.
