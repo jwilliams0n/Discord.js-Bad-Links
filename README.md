@@ -1,5 +1,5 @@
 # Discord.js-Bad-Links
-Delete and mute a user for posting bad links.
+Delete and mute a user for posting links commonly found on hacked accounts.
 
 
 How to set up:
