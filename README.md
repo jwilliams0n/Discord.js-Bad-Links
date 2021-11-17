@@ -13,7 +13,7 @@ NOTE: This is not a fully working bot code. You will need to already have a work
       You will ALSO need to provide your own api for this to work.
       
       
-An update for this to work with a json of blocked URL's will be coming soon.
+An update for this to work with a json file of blocked URL's will be coming soon.
 
 Permissions Required for this to work:
 - Manage Roles
