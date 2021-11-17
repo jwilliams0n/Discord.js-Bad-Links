@@ -1,20 +1,21 @@
-const badLinks = require('./badLinks.json')
+const request = require('request');
+let badLinks = '';
 
 client.on("message", async message => {
+    request('https://api.hyperphish.com/gimme-domains', function (error, response, body) {
+        if (error === null) {} else { console.log(`request error: ${error}`)};
+        badLinks = JSON.parse(body);
+    });
 
-    function autoMute(userid, guildid, reason){
-        console.log(userid, guildid, reason)
-        const guild = client.guilds.cache.get(guildid)
-        const member = guild.members.cache.get(userid)
-        const role = member.guild.roles.cache.find(role => role.id === "mute role id")
-        member.roles.add(role)
+    function autoMute(message, reason){
+        const guild = client.guilds.cache.get(message.guild.id)
+        const member = guild.members.cache.get(message.author.id)
+        member.roles.add("mute role id").catch(err => console.error);
     }
-
     if (message.author.id === client.user.id) {
-      return;
     } else {
         if (badLinks.some(word => message.content.includes(word))) {
-            autoMute(message.author.id, message.guild.id, "Bad Link Usage")
+            autoMute(message, "Bad Link Usage")
             message.reply("You have been muted for: **Bad Link Usage**")
             message.delete()
         }
