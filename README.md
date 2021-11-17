@@ -1,26 +1,35 @@
 # Discord.js-Bad-Links
 Delete the message and mute a user for posting harmful links.
 
-How to set up:
-- Copy the contents of the index.js file into your existing index.js file. (The main file that runs your bot)
-- Install the npm request package via **npm install request**
+Get a list of harmful links either through an API or json file.
+
+How to set up **with api**:
+- Copy the contents of the index.js file into your existing index.js file (the main file that runs your bot).
+- Install the npm request package via **npm install request**.
 - Replace **"mute role id"** on line 11 of index.js with your discord muted role ID.
 - Replace **"api link"** with your API link on like 5.
 
-
-NOTE: This is not a fully working bot code. You will need to already have a working discord.js bot with an existing index.js code file for this to work.
-      Your bot will need the correct permissions (listed below). Your bot role and muted role will need to be above your user roles in the Server Settings > Roles list.
-      You will ALSO need to provide your own api for this to work.
+How to set up **with JSON file**:
+- Download the badLinks.json file.
+- Move the badLinks.json file into the same folder as your existing index.js file.
+- Add the contents of the index.js file into your existing index.js file (the main file that runs your bot).
+- Replace the **"mute role id"** on like 9 of index.js with your discord muted role ID.
       
-      
-An update for this to work with a json file of blocked URL's will be coming soon.
-
-Permissions Required for this to work:
+Required Permissions for this to work:
 - Manage Roles
 - SendMessages 
 - ManageMessages
 - Read Message History
 
+NOTE:
+- This is **NOT** a full bot code. Simply copying and pasting this will not give you a fully functioning discord.js bot.
+- You will need to provide your own API if using the API version.
+- You will need to create your own muted role and set up permissions for this to work.
+- Ensure your bot has the correct permissions, as muting/deleting/sending messages will not work correctly.
 
 
-This was last tested & working with node.js v16.11.1
+Both versions were last tested & working with node.js v16.11.1
+
+
+Credits:
+JSON List - reddit u/Killaxia
