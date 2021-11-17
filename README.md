@@ -10,3 +10,7 @@ How to set up:
 
 
 NOTE: This is not a fully working bot code. You will need to already have a working discord.js bot with an existing index.js code file for this to work.
+
+
+
+This was last tested & working with node.js v16.11.1
