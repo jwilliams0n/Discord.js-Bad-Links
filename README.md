@@ -26,6 +26,7 @@ NOTE:
 - You will need to provide your own API if using the API version.
 - You will need to create your own muted role and set up permissions for this to work.
 - Ensure your bot has the correct permissions, as muting/deleting/sending messages will not work correctly.
+- You may need to change the word `client` in this code. This will depend on the line of your code similar to `const client = new Discord.Client();` - If you have any issues with this, feel free to open an issue and I will be happy to assist.
 
 
 Both versions were last tested & working with node.js v16.11.1
