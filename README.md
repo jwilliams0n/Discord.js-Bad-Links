@@ -3,25 +3,25 @@ Delete the message and mute a user for posting harmful links.
 
 Get a list of harmful links either through an API or json file.
 
-How to set up **with api**:
+# How to set up **with api**:
 - Copy the contents of the index.js file into your existing index.js file (the main file that runs your bot).
 - Install the npm request package via **npm install request**.
 - Replace **"mute role id"** on line 11 of index.js with your discord muted role ID.
 - Replace **"api link"** with your API link on like 5.
 
-How to set up **with JSON file**:
+# How to set up **with JSON file**:
 - Download the badLinks.json file.
 - Move the badLinks.json file into the same folder as your existing index.js file.
 - Add the contents of the index.js file into your existing index.js file (the main file that runs your bot).
 - Replace the **"mute role id"** on like 9 of index.js with your discord muted role ID.
       
-Required Permissions for this to work:
+# Required Permissions for this to work:
 - Manage Roles
 - SendMessages 
 - ManageMessages
 - Read Message History
 
-NOTE:
+# NOTE:
 - This is **NOT** a full bot code. Simply copying and pasting this will not give you a fully functioning discord.js bot.
 - You will need to provide your own API if using the API version.
 - You will need to create your own muted role and set up permissions for this to work.
