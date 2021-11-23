@@ -12,7 +12,7 @@ Instructions of how to set up both of the bots can be found below, and in each o
 
 Note: I will not provide direct instructions on how to merge this code with your existing code, however I will provide advice in issues if needed.
 
-#### This code was last tested & working with `discord.js v13.3.1` & `node.js v16.3.0`
+#### This code was last tested & working with `discord.js v13.3.1` & `node.js v16.3.0`.
 
 ### Prerequisites for this to work:
 - You will need to of created your discord bot.
