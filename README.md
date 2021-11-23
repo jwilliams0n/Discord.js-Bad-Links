@@ -1,36 +1,42 @@
-# Discord.js-Bad-Links - (!) CURRENTLY BEING UPDATED (!)
-Delete the message and mute a user for posting harmful links.
+# Discord.js-Bad-Links - Delete/mute for harmful/malicious links
+Automatically delete messages that contain bad links and permanently mute the user for doing so.
 
-Get a list of harmful links either through an API or json file.
+This code can work as a standalone bot, or it can be added to your existing discord.js bot code.
 
-# How to set up **with api**:
-- Copy the contents of the index.js file into your existing index.js file (the main file that runs your bot).
-- Install the npm request package via **npm install request**.
-- Replace **"mute role id"** on line 11 of index.js with your discord muted role ID.
-- Replace **"api link"** with your API link on like 5.
+Get a list of harmful links either through an API or provided JSON file.
 
-# How to set up **with JSON file**:
-- Download the badLinks.json file.
-- Move the badLinks.json file into the same folder as your existing index.js file.
-- Add the contents of the index.js file into your existing index.js file (the main file that runs your bot).
-- Replace the **"mute role id"** on like 9 of index.js with your discord muted role ID.
-      
-# Required Permissions for this to work:
-- Manage Roles
-- SendMessages 
-- ManageMessages
-- Read Message History
+Instructions of how to set up both of the bots can be found below, and in each of the code folders. If you have any issues with setting up this code as a standalone bot, or merging it into your existing code, feel free to open an issue and I will be happy to assist
 
-# NOTE:
-- This is **NOT** a full bot code. Simply copying and pasting this will not give you a fully functioning discord.js bot.
-- You will need to provide your own API if using the API version.
-- You will need to create your own muted role and set up permissions for this to work.
-- Ensure your bot has the correct permissions, as muting/deleting/sending messages will not work correctly.
-- You may need to change the word `client` in this code. This will depend on the line of your code similar to `const client = new Discord.Client();` - If you have any issues with this, feel free to open an issue and I will be happy to assist.
+Note: I will not provide direct instructions on how to merge this code with your existing code, however I will provide advice in issues if needed.
+
+#### This code was last tested & working with `discord.js v13.3.1` & `node.js v16.3.0`
+
+### Prerequisites for this to work:
+- You will need to of created your discord bot.
+- If using the API version, you must have your own API URL to use.
+- Your discord bot must have the following permissions: `View channels`, `Manage roles`, `Send messages`, `Manage messages`, `Read message history` (The bot will work if the Administrator permission is granted, but this is not recommended).
+- You must have a muted role set up in your discord server.
+
+
+## How to set up as standalone bot WITH API:
+- Download code.
+- Add your bot token into line 2 of config.json.
+- Add your mute role ID into line 3 of config.json.
+- Add your API link into line 4 of config.json.
+- Install required packages through `npm install`.
+- Start your bot by typing `node index.js` in your terminal.
+
+
+## How to set up as a standalone bot WITH JSON:
+- Download code.
+- Add your bot token into config.json.
+- Add your mute role ID into config.json.
+- Install required packages through `npm install`.
+- Start your bot by typing `node index.js` in your terminal.
 
 
 Both versions were last tested & working with node.js v16.11.1
 
 
 Credits:
-JSON List - reddit u/Killaxia
+- JSON List - reddit u/Killaxia
