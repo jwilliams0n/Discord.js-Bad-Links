@@ -35,8 +35,5 @@ Note: I will not provide direct instructions on how to merge this code with your
 - Start your bot by typing `node index.js` in your terminal.
 
 
-Both versions were last tested & working with node.js v16.11.1
-
-
 Credits:
 - JSON List - reddit u/Killaxia
