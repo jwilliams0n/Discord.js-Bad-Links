@@ -20,4 +20,7 @@ There are pleanty of other tutorials on the internet of how to set up a discord 
 
 If you encounter any issues or require any assistance setting this up, create an issue and I will be more than happy to assist.
 
-Credits: 
+Credits:  JSON List - reddit u/Killaxia
+
+
+Last tested and working with `discord.js v13.3.1` & `node.js v16.3.0`
