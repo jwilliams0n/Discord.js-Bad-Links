@@ -1,4 +1,7 @@
 # Discord.js-Bad-Links - Delete/mute for harmful/malicious links
+
+### Now updated & working with discord.js v13
+
 Automatically delete messages that contain bad links and permanently mute the user for doing so.
 
 This code can work as a standalone bot, or it can be added to your existing discord.js bot code.
