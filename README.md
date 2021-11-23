@@ -1,4 +1,4 @@
-# Discord.js-Bad-Links
+# Discord.js-Bad-Links - (!) CURRENTLY BEING UPDATED (!)
 Delete the message and mute a user for posting harmful links.
 
 Get a list of harmful links either through an API or json file.
