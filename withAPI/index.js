@@ -1,6 +1,11 @@
 const { Client, Intents } = require('discord.js');
 const { botToken, muteRoleID, definedAPI } = require('./config.json');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({ 
+	intents: [
+		Intents.FLAGS.GUILDS, 
+		Intents.FLAGS.GUILD_MESSAGES
+	] 
+});
 const fetch = require('node-fetch');
 let badLinks = ' ';
 
