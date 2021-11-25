@@ -1,10 +1,12 @@
 const { Client, Intents } = require('discord.js');
 const { botToken, muteRoleID } = require('./config.json');
 const badLinks = require('./badLinks.json')
-const client = new Client({ intents: [
-	Intents.FLAGS.GUILDS, 
-	Intents.FLAGS.GUILD_MESSAGES
-]});
+const client = new Client({ 
+	intents: [
+		Intents.FLAGS.GUILDS, 
+		Intents.FLAGS.GUILD_MESSAGES
+	] 
+});
 
 client.login(botToken);
 
