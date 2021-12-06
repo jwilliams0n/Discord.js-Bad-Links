@@ -1,4 +1,7 @@
 # Discord.js-Bad-Links - Delete/warn for harmful/malicious links using API.
+
+# Note: You *WILL* need to use node-fetch v2 for this to work.
+
 Automatically delete messages that contain bad links and permanently mute the user for doing so, using a API of bad links.
 
 This code can work as a standalone bot, or can be added to your existing discord.js bot.
