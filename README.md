@@ -1,4 +1,4 @@
-# Discord.js-Bad-Links - Delete/mute for harmful/malicious links
+# UPDATE COMING SOON - Discord.js-Bad-Links - Delete/mute for harmful/malicious links
 
 ### Now updated & working with discord.js v13!
 
